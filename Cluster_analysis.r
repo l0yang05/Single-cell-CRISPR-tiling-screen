@@ -1,5 +1,6 @@
-
-
+### import 10x crispr-single cell data, QC cut off may vary based on datasets
+datdir="YOUR_10x_FILE_PATH/outs/filtered_feature_bc_matrix"
+mk.Seurat(mksub=T, dataDir = datdir,projectID = 'YOUR_PROJECT_NAME',genome = "mouse",lib.type = "Expression plus CRISPR",runVinPlot = F,nFeature.low = 200,nFeature.high = 5500,percentMT.cutoff = 10)
 
 ### add guide info, known functional region info to individual cells
 library(dplyr)
