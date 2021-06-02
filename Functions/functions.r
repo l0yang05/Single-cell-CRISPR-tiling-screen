@@ -1,4 +1,4 @@
-## functions
+## helper functions
 mk.Seurat <- function(dataDir, projectID,genome="human",min.cells=5,min.genes = 200,runVinPlot= T,mksub = F, nFeature.low =NULL,nFeature.high=NULL, percentMT.cutoff=NULL,lib.type="Expression only"){
   # create seurat object and make QC plots
   dat <- Read10X(data.dir=dataDir)
