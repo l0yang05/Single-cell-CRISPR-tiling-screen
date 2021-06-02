@@ -16,7 +16,8 @@ pseudotime_analysis.r
 ### correaltion matrix and heatmap plot genration
 correaltion_analysis.r
 
-
+### smoothen heatmap plot
+smoothen_by_position.r
 ### Main functions
 Functions/functions.r
 
