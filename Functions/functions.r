@@ -94,10 +94,6 @@ get_lower_tri <- function(cormat){
 }
 
 ## smoothen corr ratio over position
-# pos <- as.numeric(word(colnames(dmso.yg.top100.cormat),-2,sep=fixed('_')))
-# # r1 <- data.frame(pos = pos, cor = dmso.yg.top100.cormat[1,])
-# r1.sm <- smoothen.cor(r1,pos = pos)
-# r1 <- dmso.yg.top100.cormat[1,]
 
 smoothen.cor <- function(rowdat,pos,bw=NULL){
   ## input is two-column tbl from one row of the cor-matrix, pos and cor
