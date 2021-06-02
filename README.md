@@ -1,4 +1,4 @@
-# singleCell_CRISPR_10x
+# sc_Tiling: single-Cell CRISPR tiling screen
 Code for DOT1L-Nat Comm manuscript
 
 To be added [link to accepted paper]
